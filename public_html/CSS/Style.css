@@ -1,0 +1,23 @@
+body {
+    background: white;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+h1{
+    border: 5px solid black;
+    padding-left: 300px;
+    margin: 0px;
+}
+img{
+    padding-left: 250px;
+}
+body {
+   
+   background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");
+    //background-color: black;
+}
+  
+
