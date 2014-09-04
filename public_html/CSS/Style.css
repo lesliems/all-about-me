@@ -8,16 +8,36 @@ img {
 }
 h1{
     border: 5px solid black;
-    padding-left: 300px;
-    margin: 0px;
+    margin: 10px;
 }
 img{
-    padding-left: 250px;
+    padding-left: 410px;
 }
 body {
    
-   background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");
-    //background-color: black;
+   //background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");
+    background-color: black;
 }
-  
+body {
+    color: white;
+}
 
+h1 {
+    text-align: center;
+}
+
+p { 
+	//position: relative; 
+	//right: -545px;
+}
+b{ 
+	postition: absolute;
+	top: 10px;
+	left: 30px;
+}
+p{
+    font-size: 40;
+}
+boxed {
+  border: 10px white ;
+}
