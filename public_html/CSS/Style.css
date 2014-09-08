@@ -1,43 +1,61 @@
 body {
-    background: white;
+	/* background-color: #000000; */
+	background-image: url(http://fc02.deviantart.net/fs70/f/2011/116/a/7/animus_iphone_4_wallpaper_by_will_yen-d3ex491.png);
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+	border-width: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+        color: white;
+}
+
+a {
+    font-size: 40px;
+    margin-right: auto;  
+    color: blueviolet;
+   
 }
 
 img {
     width: 500px;
     height: auto;
+    padding-left: 410px;
+    
 }
 h1{
-    border: 5px solid black;
-    margin: 10px;
-}
-img{
-    padding-left: 410px;
-}
-body {
-   
-   //background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");
-    background-color: black;
-}
-body {
+    margin-top: 2%;
+    border: 5px solid white;
+    text-align: center;
     color: white;
 }
+    /*http://fc02.deviantart.net/fs70/f/2011/116/a/7/animus_iphone_4_wallpaper_by_will_yen-d3ex491.png */
+   /*http://fc06.deviantart.net/fs70/i/2012/357/2/f/abstergo_by_razotron-d5ow92x.jpg */
+/*   background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");*/
+  
 
-h1 {
-    text-align: center;
-}
 
-p { 
-	//position: relative; 
-	//right: -545px;
+h2{
+     color: white;
+ } 
+ 
+ 
+p {
+	position: relative;
+	font-size: 18;
+	text-align: center;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
 }
 b{ 
 	postition: absolute;
 	top: 10px;
-	left: 30px;
+	left: 50px;
 }
-p{
-    font-size: 40;
+
+p .solid {
+    border-style: solid;
+    border-color: white;
 }
-boxed {
-  border: 10px white ;
-}
+
+ 
