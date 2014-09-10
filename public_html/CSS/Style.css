@@ -1,5 +1,7 @@
+
+/*The backgorund and the body of the web page*/
 body {
-	/* background-color: #000000; */
+	background-color: black;
 	background-image: url(http://fc02.deviantart.net/fs70/f/2011/116/a/7/animus_iphone_4_wallpaper_by_will_yen-d3ex491.png);
 	padding: 10px;
 	border-color: white;
@@ -9,46 +11,50 @@ body {
 	font-size: 36px;
         color: white;
 }
-
+/*for all links*/
 a {
     font-size: 40px;
     margin-right: auto;  
-    color: blueviolet;
-   
+    color:  aqua;
+    padding: 20px;
+   /* margin-left: 90px*/
 }
-
+/*for all images*/
 img {
     width: 500px;
     height: auto;
     padding-left: 410px;
     
 }
+/*for all h1*/
 h1{
     margin-top: 2%;
     border: 5px solid white;
     text-align: center;
     color: white;
 }
-    /*http://fc02.deviantart.net/fs70/f/2011/116/a/7/animus_iphone_4_wallpaper_by_will_yen-d3ex491.png */
-   /*http://fc06.deviantart.net/fs70/i/2012/357/2/f/abstergo_by_razotron-d5ow92x.jpg */
-/*   background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");*/
+/*    http://fc02.deviantart.net/fs70/f/2011/116/a/7/animus_iphone_4_wallpaper_by_will_yen-d3ex491.png 
+   http://fc06.deviantart.net/fs70/i/2012/357/2/f/abstergo_by_razotron-d5ow92x.jpg 
+   background-image: url("http://blog.ubi.com/wp-content/uploads/2013/09/UbiBlog-Gen-Without-Watermark.jpg");*/
   
 
-
+/*For all h2*/
 h2{
      color: white;
  } 
  
- 
+ /*for all paragraphs*/
 p {
 	position: relative;
 	font-size: 18;
 	text-align: center;
 	color: white;
 	font-family: Verdana, Geneva, sans-serif;
+        padding-top: 20px;
 }
+/*for the body*/
 b{ 
-	postition: absolute;
+	position: absolute;
 	top: 10px;
 	left: 50px;
 }
@@ -57,5 +63,10 @@ p .solid {
     border-style: solid;
     border-color: white;
 }
+/*For GIFS/moving images on the More/me-page.html page*/
+#favorites{
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
- 
+
